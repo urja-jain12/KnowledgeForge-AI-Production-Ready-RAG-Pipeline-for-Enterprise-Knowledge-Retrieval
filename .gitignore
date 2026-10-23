@@ -1,0 +1,22 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Datasets and generated output
+DATA/
+processed_data/
+
+# Logs and local configuration
+*.log
+.logfire/
+.vscode/
+.idea/
+git init
